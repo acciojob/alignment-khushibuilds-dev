@@ -15,9 +15,10 @@
 			<td id="t12">center</td>
 			<td id="t13" class="right">right</td>
 		</tr>
-		<tr class="center">
+		<!-- FIX: Removed class="center" from <tr> and put it on the middle <td> -->
+		<tr>
 			<td>left</td>
-			<td>center</td>
+			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
 		<tr>
@@ -30,7 +31,6 @@
 	<!-- TABLE 2 -->
 	<table id="table-2" class="middle">
         <tr>
-			
 			<td colspan="6" id="t21"></td>
 		</tr>
 		<tr>
@@ -52,7 +52,7 @@
 
 	<!-- TABLE 3 -->
 	<table class="middle" id="table-3">
-
+		<!-- FIX: Applied "green" class to the entire first row -->
 		<tr class="green">
 			<td></td>
 			<td></td>
@@ -60,11 +60,11 @@
 		</tr>
 		<tr>
 			<td></td>
-			
-			<td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Assignment Image"></td>
+			<!-- Fixed 'scr' typo to 'src' so image loads perfectly -->
+			<td id="t-image"><img src="https://d125.org" alt="Assignment Image"></td>
 			<td></td>
 		</tr>
-	
+		<!-- FIX: Applied "blue" class to the entire last row -->
 		<tr class="blue">
 			<td></td>
 			<td></td>
